@@ -11,7 +11,7 @@ const port = 5000;
 app.get("/get-user/:username", async (req, res) => {
     try {
         const {username} = req.params;
-        const user = await (await pool).query("select * from user where username=?", [username])
+        const user = await (await pool).query("select * from users where username=?", [username])
 
         console.log(user[0])
         if (user[0])

@@ -20,8 +20,8 @@ function Result({loanAmount, interest, tenureMonth}) {
 
     return (
         <div>
-            <div className="row mt-5">
-                <div className="col-6">
+            <div className="row mt-5 text-center">
+                <div className="col-12">
                     <div className="row">
                         <div className="col-12">
                             <div className="card bg-secondary">
@@ -53,14 +53,6 @@ function Result({loanAmount, interest, tenureMonth}) {
                                     <h2>{totalPayment}</h2>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6">
-                    <div className="card bg-secondary">
-                        <div className="card-body">
-                            <h3 className="card-title">Breakup of Total Payment</h3>
-                            <h5>Result</h5>
                         </div>
                     </div>
                 </div>

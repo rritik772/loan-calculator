@@ -20,6 +20,7 @@ function Signup() {
             })
 
             console.log(await response.json())
+            window.location="/"
         }
     }
 

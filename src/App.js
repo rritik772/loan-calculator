@@ -7,7 +7,7 @@ import Signup from './Components/Static/Signup';
 function App() {
   return (
     <>
-    <Login/>
+    <Calculator/>
     </>
   );
 }
